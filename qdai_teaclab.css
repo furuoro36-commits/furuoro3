@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding-top: 150px;
+    position: relative;
+    background:
+        linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), /* 白レイヤー（全面） */
+        url(IMAGE/IMG_3730.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 20px;
+    margin: 0;
+    z-index: 999;
+}
+.header_bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items:center;
+    background: #0d6828;
+    padding-left: 20px;
+    margin: 0;
+}
+.club_logo {
+    height: 40px;
+    margin-right: 20px;
+}
+.header_title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+aside {/* サイドバー */
+  position: fixed;
+  top: 80px;
+  right: 0; /* 右側に配置 */
+}
+#side_bar{
+    list-style: none;
+}
+#side_bar a{
+    color: #0d6828;
+    display: block;
+    margin: 20px 0 20px 0;
+}
+#side_bar a:hover{
+    color: #8e0d0d;
+}
+#sns{
+    display: flex;
+    list-style: none;
+}
+#x{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px;
+}
+#instagram{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px;
+}
+#radio{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px;
+}
+#note{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px; 
+}
+footer{
+    align-items:center;
+    background: #0d6828;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 150px;
+    margin: 0;
+}
